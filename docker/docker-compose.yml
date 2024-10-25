@@ -8,7 +8,7 @@ services:
     environment:
       TZ: 'Asia/Shanghai'
       OPEN_AI_API_KEY: 'YOUR API KEY'
-      MODEL: 'gpt-3.5-turbo'
+      MODEL: ''
       PROXY: ''
       SINGLE_CHAT_PREFIX: '["bot", "@bot"]'
       SINGLE_CHAT_REPLY_PREFIX: '"[bot] "'
@@ -23,3 +23,10 @@ services:
       USE_LINKAI: 'False'
       LINKAI_API_KEY: ''
       LINKAI_APP_CODE: ''
+      CHANNEL_TYPE: 'wechatcom_app'
+      WECHATCOM_CORP_ID: 'xx'
+      WECHATCOMAPP_AGENT_ID: 'xx'
+      WECHATCOMAPP_SECRET: '--xx'
+      WECHATCOMAPP_TOKEN: 'xx'
+      WECHATCOMAPP_AES_KEY: 'x'
+      WECHATCOMAPP_PORT: 9898
